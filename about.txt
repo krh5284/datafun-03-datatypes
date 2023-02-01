@@ -1,0 +1,44 @@
+
+
+==============================================================
+==============================================================
+
+ Welcome!
+
+ It's 2023-01-30 at 08:19 PM
+
+ This file is running on:    nt Windows 10
+ 
+ The Python version is:      3.9.15
+ 
+ The Python interpreter is at:
+ C:\Users\krh52\Anaconda\python.exe
+
+ The active environment should be either conda OR pip (one should be None):
+
+     Active conda env is: None
+     Active pip env is:   None
+ 
+ The path to the active virtual environment is:
+
+ C:\Users\krh52\Anaconda
+ 
+ The Current Working Directory (CWD) where this command was launched is:
+
+ G:\My Drive\Grad School\44608_Data_Analytics_Fundamentals\Module 3\datafun-03-datatypes
+ 
+ The absolute path to the data directory is:
+
+ G:\My Drive\Grad School\44608_Data_Analytics_Fundamentals\Module 3\datafun-03-datatypes\
+ 
+ The absolute path to this source directory is:
+
+ g:\My Drive\Grad School\44608_Data_Analytics_Fundamentals\Module 3\datafun-03-datatypes
+ 
+ The absolute path to this file is:
+
+ g:\My Drive\Grad School\44608_Data_Analytics_Fundamentals\Module 3\datafun-03-datatypes\about.py
+ 
+==============================================================
+==============================================================
+

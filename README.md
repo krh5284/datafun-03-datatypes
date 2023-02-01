@@ -14,3 +14,8 @@ Clone your new repo down to your machine.
 ## Task 3 - Open the Project Locally
 
 Open the project in VS Code. 
+
+## Update
+Kellie Heckman
+30JAN23
+Domain: Chickens. All about chickens, chicken species, chicken farms, chicken feed, chicken houses, chicken coops, chicken, chicken, chicken...............
