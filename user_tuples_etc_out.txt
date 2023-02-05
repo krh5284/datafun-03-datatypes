@@ -1,3 +1,57 @@
+PS G:\My Drive\Grad School\44608_Data_Analytics_Fundamentals\Module 3\datafun-03-datatypes> conda activate base
+conda : The term 'conda' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was 
+included, verify that the path is correct and try again.
+At line:1 char:1
++ conda activate base
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (conda:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+PS G:\My Drive\Grad School\44608_Data_Analytics_Fundamentals\Module 3\datafun-03-datatypes> & C:/Users/krh52/Anaconda/python.exe "g:/My Drive/Grad School/44608_Data_Analytics_Fundamentals/Module 3/datafun-03-datatypes/user_tuples_etc.py"
 All chicken ID numbers: (1, 2, 3, 4, 5, 4, 5, 6, 7, 8)
 Union: {1, 2, 3, 4, 5, 6, 7, 8}
 Intersection: {4, 5}
+
+We created a dictionary of word : count for each word in the woodchuck text
+
+
+PS G:\My Drive\Grad School\44608_Data_Analytics_Fundamentals\Module 3\datafun-03-datatypes> & C:/Users/krh52/Anaconda/python.exe "g:/My Drive/Grad School/44608_Data_Analytics_Fundamentals/Module 3/datafun-03-datatypes/user_tuples_etc.py"
+All chicken ID numbers: (1, 2, 3, 4, 5, 4, 5, 6, 7, 8)
+Union: {1, 2, 3, 4, 5, 6, 7, 8}
+Intersection: {4, 5}
+Traceback (most recent call last):
+  File "g:\My Drive\Grad School\44608_Data_Analytics_Fundamentals\Module 3\datafun-03-datatypes\user_tuples_etc.py", line 32, in <module>
+NameError: name 'word_list_mod3' is not defined
+PS G:\My Drive\Grad School\44608_Data_Analytics_Fundamentals\Module 3\datafun-03-datatypes> & C:/Users/krh52/Anaconda/python.exe "g:/My Drive/Grad School/44608_Data_Analytics_Fundamentals/Module 3/datafun-03-datatypes/user_tuples_etc.py"
+All chicken ID numbers: (1, 2, 3, 4, 5, 4, 5, 6, 7, 8)
+Union: {1, 2, 3, 4, 5, 6, 7, 8}
+Intersection: {4, 5}
+Traceback (most recent call last):
+    word_count = {word: word_list.count(word) for word in word_list_mod3}
+NameError: name 'word_list_mod3' is not defined
+PS G:\My Drive\Grad School\44608_Data_Analytics_Fundamentals\Module 3\datafun-03-datatypes> & C:/Users/krh52/Anaconda/python.exe "g:/My Drive/Grad School/44608_Data_Analytics_Fundamentals/Module 3/datafun-03-datatypes/user_tuples_etc.py"
+All chicken ID numbers: (1, 2, 3, 4, 5, 4, 5, 6, 7, 8)
+Union: {1, 2, 3, 4, 5, 6, 7, 8}
+Intersection: {4, 5}
+Word count:  {'How': 1, 'much': 3, 'wood': 2, 'would': 3, 'a': 4, 'woodchuck': 4, 'chuck': 4, 'if': 2, 'could': 2, 'wood?': 1, 'He': 1, 'chuck,': 1, 'he': 2, 'would,': 
+1, 'as': 4, 'could,': 1, 'and': 1, 'wood.': 1}
+PS G:\My Drive\Grad School\44608_Data_Analytics_Fundamentals\Module 3\datafun-03-datatypes> & C:/Users/krh52/Anaconda/python.exe "g:/My Drive/Grad School/44608_Data_Analytics_Fundamentals/Module 3/datafun-03-datatypes/user_tuples_etc.py"
+All chicken ID numbers: (1, 2, 3, 4, 5, 4, 5, 6, 7, 8)
+Union: {1, 2, 3, 4, 5, 6, 7, 8}
+Intersection: {4, 5}
+Word count:  {'How': 1, 'much': 3, 'wood': 2, 'would': 3, 'a': 4, 'woodchuck': 4, 'chuck': 4, 'if': 2, 'could': 2, 'wood?': 1, 'He': 1, 'chuck,': 1, 'he': 2, 'would,': 
+1, 'as': 4, 'could,': 1, 'and': 1, 'wood.': 1}
+PS G:\My Drive\Grad School\44608_Data_Analytics_Fundamentals\Module 3\datafun-03-datatypes> & C:/Users/krh52/Anaconda/python.exe "g:/My Drive/Grad School/44608_Data_Analytics_Fundamentals/Module 3/datafun-03-datatypes/user_tuples_etc.py"
+All chicken ID numbers: (1, 2, 3, 4, 5, 4, 5, 6, 7, 8)
+Union: {1, 2, 3, 4, 5, 6, 7, 8}
+Intersection: {4, 5}
+Word count:  {'How': 1, 'much': 3, 'wood': 2, 'would': 3, 'a': 4, 'woodchuck': 4, 'chuck': 4, 'if': 2, 'could': 2, 'wood?': 1, 'He': 1, 'chuck,': 1, 'he': 2, 'would,': 
+1, 'as': 4, 'could,': 1, 'and': 1, 'wood.': 1}
+Word count:  {'how': 1, 'much': 3, 'wood': 4, 'would': 4, 'a': 4, 'woodchuck': 4, 'chuck': 5, 'if': 2, 'could': 3, 'he': 3, 'as': 4, 'and': 1}
+PS G:\My Drive\Grad School\44608_Data_Analytics_Fundamentals\Module 3\datafun-03-datatypes> & C:/Users/krh52/Anaconda/python.exe "g:/My Drive/Grad School/44608_Data_Analytics_Fundamentals/Module 3/datafun-03-datatypes/user_tuples_etc.py"
+All chicken ID numbers: (1, 2, 3, 4, 5, 4, 5, 6, 7, 8)
+Union: {1, 2, 3, 4, 5, 6, 7, 8}
+Intersection: {4, 5}
+Word count:  {'How': 1, 'much': 3, 'wood': 2, 'would': 3, 'a': 4, 'woodchuck': 4, 'chuck': 4, 'if': 2, 'could': 2, 'wood?': 1, 'He': 1, 'chuck,': 1, 'he': 2, 'would,': 
+1, 'as': 4, 'could,': 1, 'and': 1, 'wood.': 1}
+Word count mod:  {'how': 1, 'much': 3, 'wood': 4, 'would': 4, 'a': 4, 'woodchuck': 4, 'chuck': 5, 'if': 2, 'could': 3, 'he': 3, 'as': 4, 'and': 1}
+PS G:\My Drive\Grad School\44608_Data_Analytics_Fundamentals\Module 3\datafun-03-datatypes>
